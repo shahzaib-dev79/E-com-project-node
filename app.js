@@ -8,3 +8,4 @@ dbConnect(dbUrl);
 app.listen(port, () => {
 	console.log("app is listening on port ", port);
 });
+console.log();
