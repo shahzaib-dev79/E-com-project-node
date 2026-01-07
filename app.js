@@ -7,4 +7,5 @@ const dbUrl = process.env.MONGO_URI;
 dbConnect(dbUrl);
 app.listen(port, () => {
 	console.log("app is listening on port ", port);
+	console.log("Welcome");
 });
